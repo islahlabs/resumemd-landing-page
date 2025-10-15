@@ -141,6 +141,16 @@ export default function PrivacyPage() {
         </section>
 
         <section>
+          <h2 className="text-2xl font-semibold mb-4">Data Deletion and Opt-Out</h2>
+          <p className="text-muted-foreground leading-relaxed">
+            All information collected by ResumeMD is permanently anonymized before storage and cannot be associated with any identifiable
+            individual. For that reason, we are unable to retrieve or delete specific historical records upon request. You may opt out of
+            <em> future</em> data collection at any time by uninstalling the app or (when available) disabling the in-app setting
+            &nbsp;&ldquo;Share anonymized usage data.&rdquo;
+          </p>
+        </section>
+
+        <section>
           <h2 className="text-2xl font-semibold mb-4">Children&rsquo;s Privacy</h2>
           <p className="text-muted-foreground leading-relaxed">ResumeMD is not intended for children under 13. We do not knowingly collect information from them.</p>
         </section>
