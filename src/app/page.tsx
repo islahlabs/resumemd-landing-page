@@ -16,11 +16,15 @@ export default function HomePage() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="https://apps.apple.com/"
+            href="https://apps.apple.com/us/app/resumemd/id6752629587"
             target="_blank"
-            className="bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium hover:opacity-90 transition"
+            className="hover:opacity-90 transition"
           >
-            Download on the App Store
+            <img 
+              src="/app-store-badge.svg" 
+              alt="Download on the App Store"
+              className="h-14 w-auto"
+            />
           </Link>
           <Link
             href="/privacy"
